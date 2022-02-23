@@ -34,9 +34,9 @@ library(glue)
 ui<-dashboardPage(
   freshTheme=create_theme(
     adminlte_color(
-      light_blue="#3D3FAD",
+      light_blue="#292A48",
       blue="#FFCD00", 
-      navy="#3D3FAD", 
+      navy="#292A48",
       red="#292A48",
       yellow='#FFCD00'
     ),
@@ -51,15 +51,15 @@ ui<-dashboardPage(
   header <- dashboardHeader(
     title = HTML(paste0(
       '<span class = "logo-lg">
-            <img src = "https://i.picasion.com/pic91/be39125bb9c1d744054daf1000bccb98.gif" style="height:40px;width:107%;position:left;">
+            <img src = "https://drive.google.com/uc?export=view&id=1OhpHc2ApRmOX_RC0j4xvsx7Hyx_5rNtF" height="40" style="width:107%;position:left;">
                 </span>',
       '<span class = "logo-mini">
-            <img src= "https://i.picasion.com/pic91/6c9fab564d13f0709720875791b87bbc.gif" style="height:40px;width:100%;position:center;">
+            <img src= "https://drive.google.com/uc?export=view&id=1OiiwEoSN0nG7BZdOP0XZwdPix6cONidL" height="40" style="width:100%;position:center;">
                 </span>'
     )),
     tags$li(class = "dropdown",
             div(class="inlay", style="height:8px;"),
-            tags$img(src="https://i.picasion.com/pic91/b348970c119e6ea37ce6e45a8e3d2e92.gif", style="height:35px;position:center;")
+            tags$img(src="https://drive.google.com/uc?export=view&id=1OkvkQOztXq2xL2KwxN1ZNpdJQUA5bp_G", style="height:35px;position:center;")
     ),
 
     controlbarIcon=strong(icon('fas fa-book'),'GLOSARIO')
