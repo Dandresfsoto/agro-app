@@ -51,15 +51,15 @@ ui<-dashboardPage(
   header <- dashboardHeader(
     title = HTML(paste0(
       '<span class = "logo-lg">
-            <img src = "https://drive.google.com/uc?export=view&id=1OhpHc2ApRmOX_RC0j4xvsx7Hyx_5rNtF" height="40" style="width:107%;position:left;">
+            <img src = "https://datlas-colombia-downloads-test.s3.amazonaws.com/Agro/bancoldex-white.svg" height="40" style="width:107%;position:left;">
                 </span>',
       '<span class = "logo-mini">
-            <img src= "https://drive.google.com/uc?export=view&id=1OiiwEoSN0nG7BZdOP0XZwdPix6cONidL" height="40" style="width:100%;position:center;">
+            <img src= "https://datlas-colombia-downloads-test.s3.amazonaws.com/Agro/bancoldex-white-favicon.svg" height="40" style="width:100%;position:center;">
                 </span>'
     )),
     tags$li(class = "dropdown",
             div(class="inlay", style="height:8px;"),
-            tags$img(src="https://drive.google.com/uc?export=view&id=1OkvkQOztXq2xL2KwxN1ZNpdJQUA5bp_G", style="height:35px;position:center;")
+            tags$img(src="https://datlas-colombia-downloads-test.s3.amazonaws.com/Agro/mark_presidencia.svg", style="height:35px;position:center;")
     ),
 
     controlbarIcon=strong(icon('fas fa-book'),'GLOSARIO')
